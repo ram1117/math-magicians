@@ -1,38 +1,21 @@
-const Calculator = () => (
-  <div className="calc-container">
-    <>
-      <div className="calc-display">0</div>
-    </>
-    <>
-      <button className="buttons" type="button">AC</button>
-      <button className="buttons" type="button">+/-</button>
-      <button className="buttons" type="button">%</button>
-      <button className="buttons yellow" type="button">÷</button>
-    </>
-    <>
-      <button className="buttons" type="button">7</button>
-      <button className="buttons" type="button">8/-</button>
-      <button className="buttons" type="button">9</button>
-      <button className="buttons yellow" type="button">x</button>
-    </>
-    <>
-      <button className="buttons" type="button">4</button>
-      <button className="buttons" type="button">5</button>
-      <button className="buttons" type="button">6</button>
-      <button className="buttons yellow" type="button">-</button>
-    </>
-    <>
-      <button className="buttons" type="button">1</button>
-      <button className="buttons" type="button">2</button>
-      <button className="buttons" type="button">3</button>
-      <button className="buttons yellow" type="button">+</button>
-    </>
-    <>
-      <button className="buttons zero-button" type="button">0</button>
-      <button className="buttons" type="button">.</button>
-      <button className="buttons yellow" type="button">=</button>
+import './Calculator.css';
 
-    </>
-  </div>
-);
+const Calculator = () => {
+  const handleClick = (event) => {
+    console.log(event.target.textContent);
+  };
+
+  const calcBtnText = ['AC', '+/-', '%', '÷', '7', '8', '9',
+    'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+  return (
+    <div className="calc-container" role="button" tabIndex={0} onClick={handleClick} onKeyDown={() => { }}>
+      <>
+        <div className="calc-display">0</div>
+      </>
+      {
+        calcBtnText.map((item) => <button className="buttons" key={item} type="button">{item}</button>)
+      }
+    </div>
+  );
+};
 export default Calculator;
