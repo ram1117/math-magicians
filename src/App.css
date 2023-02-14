@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  height: 50vh;
 }
 
 .calc-container {
   width: 50%;
-  margin: 15% auto;
+  height: 50vh;
+  margin: 10% auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(6, 1fr);
@@ -12,8 +14,8 @@
 
 .calc-display {
   grid-column: 1 /span 4;
-  padding: 10% 5%;
   border: solid 2px #c0c0c0;
+  padding: 3% 5%;
   text-align: right;
   background: #bababa;
   font-size: 1.4em;
@@ -21,7 +23,6 @@
 
 .buttons {
   background: #e0e0e0;
-  padding: 20% 0;
   border: solid 2px #c0c0c0;
   font-size: 1.4em;
 }
