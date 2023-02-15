@@ -1,39 +1,27 @@
-import { Button, CalcDisplay } from './Buttons';
+import { useState } from 'react';
+import './Calculator.css';
+import calculate from '../logic/calculate';
 
-const Calculator = () => (
-  <div className="calc-container">
-    <>
-      <CalcDisplay value="0" />
-    </>
-    <>
-      <Button value="AC" />
-      <Button value="+/-" />
-      <Button value="%" />
-      <Button value="÷" className="yellow" />
-    </>
-    <>
-      <Button value="7" />
-      <Button value="8" />
-      <Button value="9" />
-      <Button value="x" className="yellow" />
-    </>
-    <>
-      <Button value="4" />
-      <Button value="5" />
-      <Button value="6" />
-      <Button value="-" className="yellow" />
-    </>
-    <>
-      <Button value="1" />
-      <Button value="2" />
-      <Button value="3" />
-      <Button value="+" className="yellow" />
-    </>
-    <>
-      <Button value="0" className="zero-button" />
-      <Button value="." />
-      <Button value="=" className="yellow" />
-    </>
-  </div>
-);
+const Calculator = () => {
+  const [calcData, setCalcData] = useState({ total: '0', next: '', operation: '' });
+  const handleClick = (event) => {
+    setCalcData(calculate(calcData, event.target.textContent));
+  };
+  const calcBtnText = ['AC', '+/-', '%', '÷', '7', '8', '9',
+    'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+  return (
+    <div className="calc-container">
+      <>
+        <div className="calc-display">
+          {calcData.total}
+          {calcData.operation}
+          {calcData.next}
+        </div>
+      </>
+      {
+        calcBtnText.map((item) => <button className="buttons" onClick={(event) => { handleClick(event); }} key={item} type="button">{item}</button>)
+      }
+    </div>
+  );
+};
 export default Calculator;
