@@ -30,8 +30,7 @@
 .buttons:nth-child(9),
 .buttons:nth-child(13),
 .buttons:nth-child(17),
-.buttons:nth-child(20)
-{
+.buttons:nth-child(20) {
   background: #f5913e;
 }
 
