@@ -3,7 +3,7 @@ import styles from '../styles/HomePage.module.css';
 const HomePage = () => (
   <>
     <div className={styles.wrapper}>
-      <h2 className={styles.pageHeader}>Welcome to Math Magician Page!!!</h2>
+      <h2 data-testid="home-header" className={styles.pageHeader}>Welcome to Math Magician Page!!!</h2>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,

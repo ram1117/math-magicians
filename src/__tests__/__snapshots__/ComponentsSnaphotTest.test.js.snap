@@ -50,6 +50,7 @@ Array [
   >
     <h2
       className="pageHeader"
+      data-testid="home-header"
     >
       Welcome to Math Magician Page!!!
     </h2>
@@ -79,7 +80,9 @@ exports[`Snapshot testing components: Calculator Page renders correctly 1`] = `
 <div
   className="wrapper"
 >
-  <h2>
+  <h2
+    data-testid="calc-header"
+  >
     Let's do some Math Magic
   </h2>
   <div
@@ -87,6 +90,7 @@ exports[`Snapshot testing components: Calculator Page renders correctly 1`] = `
   >
     <div
       className="calc-display"
+      data-testid="calc-display"
     >
       0
     </div>
@@ -233,6 +237,7 @@ exports[`Snapshot testing components: Home Page renders correctly 1`] = `
 >
   <h2
     className="pageHeader"
+    data-testid="home-header"
   >
     Welcome to Math Magician Page!!!
   </h2>
@@ -251,7 +256,9 @@ exports[`Snapshot testing components: HomePage renders correctly 1`] = `
 >
   “Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality.”
   <br />
-  <span>
+  <span
+    data-testid="quote-author"
+  >
     — Richard Courant
   </span>
 </blockquote>
@@ -263,6 +270,7 @@ exports[`Snapshot testing components: calculator renders correctly 1`] = `
 >
   <div
     className="calc-display"
+    data-testid="calc-display"
   >
     0
   </div>

@@ -12,7 +12,7 @@ const Calculator = () => {
   return (
     <div className="calc-container">
       <>
-        <div className="calc-display">
+        <div className="calc-display" data-testid="calc-display">
           {calcData.total}
           {calcData.operation}
           {calcData.next}
