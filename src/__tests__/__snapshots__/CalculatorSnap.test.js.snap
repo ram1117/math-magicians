@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing components: App renders correctly 1`] = `
+Array [
+  <nav
+    className="nav-bar"
+  >
+    <h2
+      className="app-logo"
+    >
+      Math Magician
+    </h2>
+    <ul
+      className="nav-list"
+    >
+      <li
+        className="nav-items"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-items"
+      >
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        className="nav-items"
+      >
+        <a
+          href="/quotes"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>,
+  <div
+    className="wrapper"
+  >
+    <h2
+      className="pageHeader"
+    >
+      Welcome to Math Magician Page!!!
+    </h2>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p>
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </p>
+  </div>,
+  <footer>
+    <p>
+      Developed and maintained by:
+      <a
+        className="profile-link"
+        href="https://github.com/ram1117?tab=repositories"
+        target="_blank"
+      >
+         @ram1117
+      </a>
+    </p>
+  </footer>,
+]
+`;
+
+exports[`Snapshot testing components: Calculator Page renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <h2>
+    Let's do some Math Magic
+  </h2>
+  <div
+    className="calc-container"
+  >
+    <div
+      className="calc-display"
+    >
+      0
+    </div>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshot testing components: Home Page renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <h2
+    className="pageHeader"
+  >
+    Welcome to Math Magician Page!!!
+  </h2>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+  <p>
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  </p>
+</div>
+`;
+
+exports[`Snapshot testing components: HomePage renders correctly 1`] = `
+<blockquote
+  className="quote-block"
+>
+  “Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality.”
+  <br />
+  <span>
+    — Richard Courant
+  </span>
+</blockquote>
+`;
+
+exports[`Snapshot testing components: calculator renders correctly 1`] = `
+<div
+  className="calc-container"
+>
+  <div
+    className="calc-display"
+  >
+    0
+  </div>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="buttons"
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;
