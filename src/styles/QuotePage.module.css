@@ -1,0 +1,23 @@
+.quote-block {
+  margin-bottom: 10%;
+  border: dashed 1px #353535;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding: 5%;
+  font-style: oblique;
+  overflow: auto;
+  color: #353535;
+}
+
+.quote-block > span {
+  float: right;
+  color: #16a085;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .quote-block {
+    margin: 10% 5%;
+  }
+}

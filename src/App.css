@@ -1,4 +1,59 @@
 .App {
   text-align: center;
-  height: 50vh;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 0 2%;
+  background: #353535;
+  align-items: center;
+}
+
+.app-logo {
+  width: 60%;
+  color: #16a085;
+}
+
+.nav-items > *,
+footer > p {
+  color: #16a085;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-items {
+  padding: 5% 0;
+}
+
+.nav-items :hover {
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background: #353535;
+}
+
+.profile-link {
+  color: #fff;
+}
+
+.nav-list {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
 }

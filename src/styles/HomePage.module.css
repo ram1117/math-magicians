@@ -1,0 +1,11 @@
+.wrapper {
+  padding: 3% 5%;
+  margin-bottom: 10%;
+  overflow-y: scroll;
+  color: #353535;
+}
+
+.pageHeader {
+  font-size: 1.5em;
+  color: #16a085;
+}
