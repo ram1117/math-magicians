@@ -1,4 +1,42 @@
 .App {
   text-align: center;
-  height: 50vh;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 0 2%;
+}
+
+.app-logo {
+  width: 60%;
+}
+
+footer {
+  width: 100%;
+  padding: 2%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.profile-link{
+  color: aqua;
+}
+
+.nav-list {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width:768px) {
+
+  .nav-list {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
 }

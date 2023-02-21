@@ -8,12 +8,12 @@ const App = () => {
   const ghProfile = 'https://github.com/ram1117?tab=repositories';
   return (
     <>
-      <nav>
-        <h2>Math Magician</h2>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="calculator">Calculator</Link></li>
-          <li><Link to="quotes">Quote</Link></li>
+      <nav className="nav-bar">
+        <h2 className="app-logo">Math Magician</h2>
+        <ul className="nav-list">
+          <li className="nav-items"><Link to="/">Home</Link></li>
+          <li className="nav-items"><Link to="calculator">Calculator</Link></li>
+          <li className="nav-items"><Link to="quotes">Quote</Link></li>
         </ul>
       </nav>
       <Routes>
@@ -24,7 +24,7 @@ const App = () => {
       <footer>
         <p>
           Developed and maintained by:
-          <Link to={ghProfile} target="_blank">@ram1117</Link>
+          <Link className="profile-link" to={ghProfile} target="_blank"> @ram1117</Link>
         </p>
       </footer>
     </>

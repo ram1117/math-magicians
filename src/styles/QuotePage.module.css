@@ -1,0 +1,13 @@
+.quote-block {
+  border: solid 1px black;
+  font-size: 1.5em;
+  padding: 5%;
+  font-style: oblique;
+  overflow: auto;
+ }
+
+ .quote-block > span {
+  float: right;
+  font-style: normal;
+  font-weight: 700;
+ }
