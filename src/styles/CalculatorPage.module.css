@@ -11,10 +11,8 @@
   color: #16a085;
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;
   }
-
 }

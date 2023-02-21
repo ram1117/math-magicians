@@ -14,8 +14,8 @@
   color: #16a085;
 }
 
-.nav-items>*,
-footer>p {
+.nav-items > *,
+footer > p {
   color: #16a085;
   font-weight: 700;
   text-decoration: none;
@@ -49,13 +49,11 @@ footer {
   justify-content: space-around;
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   .nav-list {
     flex-direction: row;
     list-style: none;
     display: flex;
     justify-content: space-around;
   }
-
 }
