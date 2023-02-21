@@ -5,22 +5,31 @@
 .nav-bar {
   display: flex;
   padding: 0 2%;
+  background: #353535;
+  align-items: center;
 }
 
 .app-logo {
   width: 60%;
+  color: #16a085;
+}
+
+.nav-items > * ,footer > p{
+  color: #16a085;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 footer {
   width: 100%;
-  padding: 2%;
   position: fixed;
   bottom: 0;
   text-align: center;
+  background: #353535;
 }
 
 .profile-link{
-  color: aqua;
+  color: #fff;
 }
 
 .nav-list {

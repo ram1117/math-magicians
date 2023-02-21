@@ -5,6 +5,7 @@
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(6, 1fr);
+  color: #16a085;
 }
 
 .calc-display {
@@ -13,14 +14,15 @@
   border: solid 2px #c0c0c0;
   padding: 3% 5%;
   text-align: right;
-  background: #bababa;
+  background: #353535;
   font-size: 1.4em;
 }
 
 .buttons {
-  background: #e0e0e0;
+  background: #353535;
   border: solid 2px #c0c0c0;
   font-size: 1.4em;
+  color: #16a085;
 }
 
 .buttons:hover {
