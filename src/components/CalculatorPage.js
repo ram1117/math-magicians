@@ -4,7 +4,7 @@ import Calculator from './Calculator';
 const CalculatorPage = () => (
   <>
     <div className={styles.wrapper}>
-      <h2>Let&apos;s do some Math Magic</h2>
+      <h2 data-testid="calc-header">Let&apos;s do some Math Magic</h2>
       <Calculator className={styles.calculator} />
     </div>
   </>

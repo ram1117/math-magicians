@@ -8,7 +8,7 @@ const QuotePage = () => (
       Its basic elements are logic and intuition, analysis and construction,
       generality and individuality.”
       <br />
-      <span>— Richard Courant</span>
+      <span data-testid="quote-author">— Richard Courant</span>
     </blockquote>
   </>
 );
