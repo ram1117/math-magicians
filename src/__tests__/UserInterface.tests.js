@@ -30,6 +30,7 @@ describe.each(testcases2)('testing onclick on Navigation buttons:',
         </BrowserRouter>,
       );
       fireEvent.click(screen.getByText(btn));
-      expect(screen.getByTestId(dataId)).toHaveTextContent(expected);
+      
+      expect(screen.getAllByText(expected).length).toBe(1);
     });
   });
