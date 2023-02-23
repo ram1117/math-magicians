@@ -28,7 +28,6 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
@@ -63,9 +62,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Link will be added after deployment
+A live demo of the app can be found on Render.
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
+- [Live Demo Link](https://math-magicians-ram.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,12 +188,6 @@ If you like this project, please give a Start to the github repo.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
->To be updated at the end of the project
-
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
